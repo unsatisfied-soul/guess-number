@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess Number</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="w-2/4 mx-auto text-center">
+
+        <section class="mt-20 w-4/5 bg-white p-10">
+            <h2 class="text-5xl font-semibold text-yellow-400 mb-6">Guess Number</h2>
+            <input type="number" name="" id="guess-input" class="border-2 w-3/5 px-2 py-3 border-black" placeholder="type a number here">
+            <div id="result">
+                
+            </div>
+            <div class="mt-8 guess-button">
+                <button id="check-btn" class="border mx-2 px-4 py-2 bg-red-500 text-white">Check ME</button>
+                <button id="restart" class="border mx-2 px-4 py-2 bg-gray-300">Restart</button>
+            </div>
+           
+            <div id="history" class="mt-4">
+
+            </div>
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
